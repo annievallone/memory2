@@ -1,21 +1,35 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import './App.css';
+import PupCard from "./components/pupcard";
+import Wrapper from "./components/wrapper";
+import Title from "./components/title";
+import pups from "./pup.json";
+import "./App.css";
+
 
 class App extends Component {
+  state = {
+    pups
+  };
+
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <h1 className="App-title">Welcome to React</h1>
-        </header>
-        <p className="App-intro">
-          To get started, edit <code>src/App.js</code> and save to reload.
-        </p>
-      </div>
+      <Wrapper>
+        <Title>pup List</Title>
+        {this.state.pups.map(pup => (
+          <PupCard
+            removePup={this.removePup}
+            id={pup.id}
+            key={pup.id}
+            name={pup.name}
+            image={pup.image}
+            occupation={pup.occupation}
+            location={pup.location}
+          />
+        ))}
+      </Wrapper>
     );
   }
 }
+
 
 export default App;

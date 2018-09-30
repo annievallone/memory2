@@ -1,0 +1,74 @@
+[
+    {
+        "id": 1,
+        "name": "pup1",
+        "image": "../public/images/pup1.img",
+        "hasBeenClicked": false
+    },
+    {
+        "id": 2,
+        "name": "pup2",
+        "image": "https://commons.wikimedia.org/wiki/File:Pup2.1.jpg",
+        "hasBeenClicked": false
+    },
+    {
+        "id": 3,
+        "name": "pup3",
+        "image": "https://commons.wikimedia.org/wiki/File:Pup3.jpg",
+        "hasBeenClicked": false
+    },
+    {
+        "id": 4,
+        "name": "pup4",
+        "image": "https://commons.wikimedia.org/wiki/File:Pup4.jpg",
+        "hasBeenClicked": false
+    },
+    {
+        "id": 5,
+        "name": "pup5",
+        "image": "https://commons.wikimedia.org/wiki/File:Pup5.jpg",
+        "hasBeenClicked": false
+    },
+    {
+        "id": 6,
+        "name": "pup6",
+        "image": "https://commons.wikimedia.org/wiki/File:Pup6.jpg",
+        "hasBeenClicked": false
+    },
+    {
+        "id": 7,
+        "name": "pup7",
+        "image": "https://commons.wikimedia.org/wiki/File:Pup7.jpg",
+        "hasBeenClicked": false
+    },
+    {
+        "id": 8,
+        "name": "pup8",
+        "image": "https://commons.wikimedia.org/wiki/File:Pup8.jpg",
+        "hasBeenClicked": false
+    },
+    {
+        "id": 9,
+        "name": "pup9",
+        "image": "https://commons.wikimedia.org/wiki/File:Pup9.jpg",
+        "hasBeenClicked": false
+    },
+    {
+        "id": 10,
+        "name": "pup9",
+        "image": "https://commons.wikimedia.org/wiki/File:Pup9.jpg",
+        "hasBeenClicked": false
+    },
+    {
+        "id": 11,
+        "name": "pup9",
+        "image": "https://commons.wikimedia.org/wiki/File:Pup9.jpg",
+        "hasBeenClicked": false
+    },
+    {
+        "id": 12,
+        "name": "pup9",
+        "image": "https://commons.wikimedia.org/wiki/File:Pup9.jpg",
+        "hasBeenClicked": false
+    }
+]
