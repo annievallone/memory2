@@ -1,35 +1,45 @@
 import React, { Component } from 'react';
-import PupCard from "./components/pupcard";
-import Wrapper from "./components/wrapper";
-import Title from "./components/title";
+
 import pups from "./pup.json";
 import "./App.css";
+import Pupcard from './components/Pupcard'
+
+
+
 
 
 class App extends Component {
   state = {
-    pups
-  };
+    pups: pups
+
+  }
+
+
+  handleClick = (id) => {
+    console.log('card clicked', id)
+
+
+  }
+
 
   render() {
     return (
-      <Wrapper>
-        <Title>pup List</Title>
+      <div className="intro">
+        Clicky App
         {this.state.pups.map(pup => (
-          <PupCard
-            removePup={this.removePup}
-            id={pup.id}
-            key={pup.id}
-            name={pup.name}
-            image={pup.image}
-            occupation={pup.occupation}
-            location={pup.location}
-          />
+          <Pupcard key={pup.id} id={pup.id} name={pup.name} img={pup.image} thisClick={this.handleClick} />
         ))}
-      </Wrapper>
-    );
+      </div>
+
+
+    )
+
   }
+
+
 }
 
 
 export default App;
+
+
